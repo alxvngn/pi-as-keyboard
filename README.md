@@ -1,4 +1,4 @@
-# pizero-usb-hid-keyboard
+# pi-as-keyboard
 
 # Procedure I used
 
