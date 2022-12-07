@@ -21,10 +21,10 @@ echo 'left-shift h' | ~/pi-as-keyboard/hid-gadget-test /dev/hidg0 keyboard
 echo 'i' | ~/pi-as-keyboard/hid-gadget-test /dev/hidg0 keyboard
 ```
 
-Alternatively
+Conveniently
 ```sh
-~/pi-as-keyboard/sendkeys.sh left-shift h
-~/pi-as-keyboard/sendkeys.sh i
+~/pi-as-keyboard/sendkeys left-shift h
+~/pi-as-keyboard/sendkeys i
 ```
 
 7. Success! Should see **Hi** in notepad
