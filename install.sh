@@ -14,4 +14,4 @@ fi
 
 ./pi-as-keyboard/enableHIDRCLocal.sh
 
-poweroff
+#poweroff
