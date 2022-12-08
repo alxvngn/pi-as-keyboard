@@ -20,8 +20,8 @@ The computer/mac will recognize the pi as a generic HID USB Keyboard. Open a tex
 Use another computer and ssh into the pi then run:
 
 ```sh
-echo 'left-shift h' | ~/pi-as-keyboard/hid-gadget-test /dev/hidg0 keyboard
-echo 'i' | ~/pi-as-keyboard/hid-gadget-test /dev/hidg0 keyboard
+echo 'left-shift h' | ~/pi-as-keyboard/hid-gadget /dev/hidg0 keyboard
+echo 'i' | ~/pi-as-keyboard/hid-gadget /dev/hidg0 keyboard
 ```
 
 Or conveniently:
