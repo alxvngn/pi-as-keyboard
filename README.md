@@ -30,5 +30,5 @@ Or conveniently:
 ~/pi-as-keyboard/sendkeys i
 ```
 
-7. Success! Should see **Hi** in notepad
-8. Take a look at https://github.com/alxvngn/pi-as-keyboard/blob/master/hid-gadget-test.c#L20 for available keys.
+Success! Should see **Hi** in notepad
+Take a look at https://github.com/alxvngn/pi-as-keyboard/blob/master/hid-gadget-test.c#L20 for available keys.
