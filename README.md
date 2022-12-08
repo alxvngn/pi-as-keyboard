@@ -14,14 +14,17 @@ curl -sSL https://raw.githubusercontent.com/alxvngn/pi-as-keyboard/master/instal
 USB on the board (the one next to the HDMI connector). Plug other end to a computer/mac.
 4. The computer/mac will recognize the pi as a generic HID USB Keyboard. It may take a while the first time so be patient.
 5. Open a text editor on the target computer/mac.
-6. Use another computer to ssh into the pi and run:
+
+# Usage
+
+Use another computer and ssh into the pi then run:
 
 ```sh
 echo 'left-shift h' | ~/pi-as-keyboard/hid-gadget-test /dev/hidg0 keyboard
 echo 'i' | ~/pi-as-keyboard/hid-gadget-test /dev/hidg0 keyboard
 ```
 
-Conveniently
+Or conveniently:
 ```sh
 ~/pi-as-keyboard/sendkeys left-shift h
 ~/pi-as-keyboard/sendkeys i
