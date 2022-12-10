@@ -20,8 +20,8 @@ The computer/mac will recognize the pi as a generic HID USB Keyboard. Open a tex
 Use another computer and ssh into the pi then run:
 
 ```sh
-echo 'left-shift h' | ~/pi-as-keyboard/hid-gadget /dev/hidg0 keyboard
-echo 'i' | ~/pi-as-keyboard/hid-gadget /dev/hidg0 keyboard
+echo 'left-shift h' | ~/pi-as-keyboard/hid-keyboard /dev/hidg0 keyboard
+echo 'i' | ~/pi-as-keyboard/hid-keyboard /dev/hidg0 keyboard
 ```
 
 Or conveniently:
@@ -31,4 +31,4 @@ Or conveniently:
 ```
 
 Success! Should see **Hi** in notepad
-Take a look at https://github.com/alxvngn/pi-as-keyboard/blob/master/hid-gadget-test.c#L20 for available keys.
+Take a look at https://github.com/alxvngn/pi-as-keyboard/blob/master/hid-keyboard.c#L20 for available keys.
