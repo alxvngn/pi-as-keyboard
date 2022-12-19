@@ -2,10 +2,12 @@
 
 # Please run this as root
 
+HOME=/home/pi
+
 cp /etc/rc.local /etc/rc.local.bak
 
 cat<<EOF > /etc/rc.local
-#!/usr/bin/env bash
+#!/bin/sh -e
 
 $HOME/pi-as-keyboard/rpi-hid.sh
 chmod 777 /dev/hidg0
