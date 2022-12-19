@@ -8,7 +8,7 @@ Tested on Banana Pi BPI-M2 ZERO running the 2022-09-07 Armbian jammy_edge_5.19.6
 2. SSH into the pi and run the following:
 
 ```sh
-curl -sSL https://raw.githubusercontent.com/alxvngn/pi-as-keyboard/master/install.sh && sudo bash install.sh autoinstall
+curl -sSL https://raw.githubusercontent.com/alxvngn/pi-as-keyboard/master/install.sh | sudo bash -
 ```
 3. Once the installation is finished, shutdown the pi, remove its power supply and use a regular microUSB to USB cable (non-OTG) to plug it into the USB connector marked
 USB on the board (the one next to the HDMI connector). Plug other end to a computer/mac.
